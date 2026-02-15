@@ -15,12 +15,30 @@ export const categories = [
 export const products = [
   {
     name: "Club 44 Solo Public",
-    category: "club-44", // assign to category
+    category: "club-44",
     price: "100 USD",
     oldPrice: "125 USD",
     image: "https://i.ibb.co/0RdszGyZ/club44.png",
     description:
       "Premium ch3at with smooth performance and clean UI for ultimate gaming experience.",
+  },
+  {
+    name: "Club 44 Lifetime Upgraded Solo",
+    category: "club-44",
+    price: "160 USD",
+    oldPrice: "200 USD",
+    image: "https://i.ibb.co/0RdszGyZ/club44.png",
+    description:
+      "Ultimate solo ch3at experience with lifetime upgrades and exclusive features.",
+  },
+  {
+    name: "Club 44 Lifetime Upgraded Duo",
+    category: "club-44",
+    price: "200 USD",
+    oldPrice: "250 USD",
+    image: "https://i.ibb.co/0RdszGyZ/club44.png",
+    description:
+      "Perfect duo ch3at pack with lifetime upgrades, ideal for two players.",
   },
 ];
 
