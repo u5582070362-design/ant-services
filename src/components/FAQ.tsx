@@ -19,9 +19,9 @@ const faqs = [
       "Yes, all of our products are delivered to you instantly after purchase.",
   },
   {
-    question: "Is GorillaModz a verified reseller?",
+    question: "Is Ant Services a verified reseller?",
     answer:
-      "Yes, GorillaModz is a verified and trusted reseller of all our products. If you're ever unsure, you can also check the official Discord server of the cheat provider, GorillaModz is listed there as a verified seller.",
+      "Yes, Ant Services is a verified and trusted reseller of all our products. If you're ever unsure, you can also check the official Discord server of the cheat provider, Ant Services is listed there as a verified seller.",
   },
   {
     question: "Are your products safe to use?",

@@ -8,28 +8,28 @@ const reviews = [
     id: 1,
     rating: 5,
     text: "Automatic feedback after 7 days.",
-    product: "FiveM Ready Account (Fivem Ready (Fresh))",
+    product: "club 44",
     date: "Feb 14, 2026",
   },
   {
     id: 2,
     rating: 5,
     text: "Automatic feedback after 7 days.",
-    product: "FiveM Ready Account (Fivem Ready (Fresh))",
+    product: "club 44",
     date: "Feb 14, 2026",
   },
   {
     id: 3,
     rating: 5,
     text: "Automatic feedback after 7 days.",
-    product: "FiveM Ready Account (Fivem Ready (Fresh))",
+    product: "club 44",
     date: "Feb 14, 2026",
   },
   {
     id: 4,
     rating: 5,
     text: "Automatic feedback after 7 days.",
-    product: "FiveM Ready Account (Fivem Ready (Fresh))",
+    product: "club 44",
     date: "Feb 14, 2026",
   },
 ];
@@ -100,7 +100,7 @@ export default function Reviews() {
             variant="outline"
             className="border-green-500/30 text-green-500 hover:bg-green-500/10"
           >
-            View All Reviews
+            
           </Button>
         </div>
       </div>

@@ -2,15 +2,15 @@
 
 const stats = [
   {
-    value: "16477",
+    value: "0",
     label: "Products Sold",
   },
   {
-    value: "1931",
+    value: "0",
     label: "Customers",
   },
   {
-    value: "4.98",
+    value: "0.00",
     label: "Average Rating",
   },
 ];

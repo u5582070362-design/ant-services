@@ -25,7 +25,7 @@ export default function Socials() {
             </div>
             <div>
               <h3 className="font-semibold text-white">Discord</h3>
-              <p className="text-sm text-gray-500">Join our community</p>
+              <p className="text-sm text-gray-500">Join our community https://discord.gg/Fda5YY5Cxq</p>
             </div>
           </a>
 
@@ -41,7 +41,7 @@ export default function Socials() {
             </div>
             <div>
               <h3 className="font-semibold text-white">YouTube</h3>
-              <p className="text-sm text-gray-500">Watch our videos</p>
+              <p className="text-sm text-gray-500">Soon...</p>
             </div>
           </a>
         </div>

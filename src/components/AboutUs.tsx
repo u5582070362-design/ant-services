@@ -19,7 +19,7 @@ const features = [
     icon: Headphones,
     title: "24/7 Support",
     description:
-      "Our support team is available 24/7 to help you with any questions or issues you might have.",
+      "Our support team is available 24/7 to help you with any questions or issues you might have. https://discord.gg/Fda5YY5Cxq",
   },
   {
     icon: Package,
@@ -41,10 +41,10 @@ export default function AboutUs() {
         </h2>
 
         <p className="text-center text-gray-400 mb-12 max-w-3xl mx-auto">
-          GorillaModz is your trusted reseller for high-quality products across multiple popular games.
+          Ant Services is your trusted reseller for high-quality products across multiple popular games.
           With deep experience in the gaming community and digital marketplaces, we specialize in providing
           reliable, up-to-date products that give you the edge you need. Whether you're looking to
-          dominate your favorite game or explore new options, GorillaModz makes it easy and secure to access
+          dominate your favorite game or explore new options, Ant Services makes it easy and secure to access
           the best digital gaming enhancements available.
         </p>
 

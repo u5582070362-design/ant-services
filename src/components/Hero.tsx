@@ -15,7 +15,7 @@ export default function Hero() {
           {/* Left Content */}
           <div className="relative z-10">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              GorillaModz is the{" "}
+              Ant Services is the{" "}
               <span className="text-green-500">#1</span>
               <br />
               destination for all your needs!
@@ -43,7 +43,7 @@ export default function Hero() {
           <div className="relative hidden md:block">
             <div className="absolute inset-0 green-glow scale-150" />
             <Image
-              src="https://ext.same-assets.com/765074946/189203561.png"
+              src="https://ibb.co/79g676p"
               alt="GTA Characters"
               width={600}
               height={500}
