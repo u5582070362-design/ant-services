@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
-// Categories
+// Category list
 export const categories = [
   {
     name: "Club 44",
@@ -11,7 +11,7 @@ export const categories = [
   },
 ];
 
-// Products
+// Product list
 export const products = [
   {
     name: "Club 44 Solo Public",
@@ -20,7 +20,7 @@ export const products = [
     oldPrice: "125 USD",
     image: "https://i.ibb.co/0RdszGyZ/club44.png",
     description:
-      "Premium cheat with smooth performance and clean UI for ultimate gaming experience.",
+      "Premium ch3at with smooth performance and clean UI for ultimate gaming experience.",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function Products() {
           Products
         </h2>
 
-        {/* Loop over categories */}
+        {/* --- Category Wrapper --- */}
         {categories.map((category) => (
           <div key={category.slug} className="mb-16">
             <h3 className="text-3xl font-bold text-white mb-6">{category.name}</h3>
@@ -57,13 +57,8 @@ export default function Products() {
                     <p className="text-gray-400 line-through">{product.oldPrice}</p>
                     <p className="text-xl font-bold text-green-500 mb-4">{product.price}</p>
                     <p className="text-gray-300 mb-6">{product.description}</p>
-                    <Button
-                      className="w-full bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-3 rounded-2xl transition-all shadow-md hover:shadow-green-500/40"
-                      as="a"
-                      href="https://discord.gg/Cy7WEHzaeK"
-                      target="_blank"
-                    >
-                      Purchase in Discord
+                    <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-3 rounded-2xl transition-all shadow-md hover:shadow-green-500/40">
+                      Purchase in https://discord.gg/Cy7WEHzaeK
                     </Button>
                   </div>
                 ))}
