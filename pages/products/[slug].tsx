@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
-import { products } from "c:/Users/tamar/Downloads/gorilla-modz-clone/src/components/Products";
+import { products } from "../../src/components/products"; // correct import from src/components
 
 export default function ProductPage() {
   const router = useRouter();
@@ -14,9 +14,16 @@ export default function ProductPage() {
   return (
     <div className="p-6 max-w-2xl mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-white">{product.name}</h1>
+
       <div className="w-full h-64 mb-4 relative">
-        <Image src={product.image} alt={product.name} fill className="object-contain" />
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          className="object-contain"
+        />
       </div>
+
       <p className="text-gray-400 line-through">{product.oldPrice}</p>
       <p className="text-2xl font-bold text-green-400">{product.price}</p>
     </div>

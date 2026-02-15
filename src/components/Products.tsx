@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// Export product array
 export const products = [
   {
     name: "Club 44",
@@ -21,11 +22,16 @@ export default function Products() {
       {products.map((product) => (
         <Link
           key={product.slug}
-          href={`/products/${product.slug}`}
+          href={`/products/${product.slug}`} // dynamic link
           className="block p-6 mb-6 rounded-xl bg-[#111] border border-white/5 hover:border-green-500/30 cursor-pointer"
         >
           <div className="w-full h-64 relative mb-4">
-            <Image src={product.image} alt={product.name} fill className="object-contain" />
+            <Image
+              src={product.image}
+              alt={product.name}
+              fill
+              className="object-contain"
+            />
           </div>
           <h3 className="text-2xl font-semibold text-white">{product.name}</h3>
           <p className="text-gray-400 line-through">{product.oldPrice}</p>
