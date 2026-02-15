@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { ShoppingCart, Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navItems = [
   { name: "Home", href: "#" },
@@ -41,35 +40,13 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Right Side */}
-          <div className="flex items-center gap-3">
-            {/* Currency Selector */}
-            <button className="hidden sm:flex items-center gap-1 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-300 hover:bg-white/10 transition-colors">
-              <span className="text-green-500">€</span>
-              <ChevronDown className="w-3 h-3" />
-            </button>
-
-            {/* Login Button */}
-            <Button
-              variant="default"
-              className="bg-green-500 hover:bg-green-600 text-black font-semibold px-5 rounded-lg"
-            >
-              Login
-            </Button>
-
-            {/* Cart */}
-            <button className="p-2 text-gray-400 hover:text-white transition-colors">
-              <ShoppingCart className="w-5 h-5" />
-            </button>
-
-            {/* Mobile Menu Toggle */}
-            <button
-              className="md:hidden p-2 text-gray-400 hover:text-white"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
+          {/* Mobile Menu Toggle */}
+          <button
+            className="md:hidden p-2 text-gray-400 hover:text-white"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
         </div>
       </div>
 
