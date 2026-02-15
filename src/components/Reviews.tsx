@@ -69,7 +69,7 @@ export default function Reviews() {
 
         <p className="text-center mb-8">
           <span className="text-gray-400">Average rating: </span>
-          <span className="text-green-500 font-semibold">4.98</span>
+          <span className="text-green-500 font-semibold">0.00</span>
         </p>
 
         {/* Reviews Grid */}

@@ -2,9 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ClientBody } from "./ClientBody";
 
+// Metadata for SEO and favicon
 export const metadata: Metadata = {
-  title: "Ant Services - #1 Destination for Gaming Needs",
-  description: "Ant Services offers premium products for FiveM, Call of Duty, Fortnite, Battlefield 6, Rainbow Six Siege, and CS2.",
+  title: "Ant Services",
+  description: "Premium products for gaming.",
+  icons: {
+    icon: "/favicon.png", // Make sure your logo is saved in public/favicon.png
+  },
 };
 
 export default function RootLayout({
@@ -14,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className="font-rubik">
+      <head>
+        {/* Optional: extra meta tags */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
+      <body className="font-rubik bg-[#0c0c0c] text-white antialiased">
         <ClientBody>{children}</ClientBody>
       </body>
     </html>
