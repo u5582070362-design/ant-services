@@ -1,6 +1,15 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
-import { products } from "c:/Users/tamar/Downloads/gorilla-modz-clone/src/components/Products"; // correct import from src/components
+
+const products = [
+  {
+    name: "Club 44",
+    slug: "club-44",
+    price: "100 USD",
+    oldPrice: "125 USD",
+    image: "https://i.ibb.co/0RdszGyZ/club44.png",
+  },
+];
 
 export default function ProductPage() {
   const router = useRouter();
