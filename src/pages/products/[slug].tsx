@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
-import { products } from "@/components/products";
+import { products } from "c:/Users/tamar/Downloads/gorilla-modz-clone/src/components/Products";
 
 export default function ProductPage() {
   const router = useRouter();
