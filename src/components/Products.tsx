@@ -4,13 +4,14 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
-// Products list
+// Products list with stock
 export const products = [
   {
     name: "Club 44 Solo Public",
     category: "club-44",
     price: "100 USD",
     oldPrice: "125 USD",
+    stock: 10, // <-- type your stock here
     image: "https://i.ibb.co/0RdszGyZ/club44.png",
     description: "Premium ch3at with smooth performance and clean UI for ultimate gaming experience.",
   },
@@ -19,6 +20,7 @@ export const products = [
     category: "club-44",
     price: "160 USD",
     oldPrice: "200 USD",
+    stock: 9,
     image: "https://i.ibb.co/0RdszGyZ/club44.png",
     description: "Ultimate solo ch3at experience with lifetime upgrades and exclusive features.",
   },
@@ -27,24 +29,27 @@ export const products = [
     category: "club-44",
     price: "200 USD",
     oldPrice: "250 USD",
+    stock: 2,
     image: "https://i.ibb.co/0RdszGyZ/club44.png",
     description: "Perfect duo ch3at pack with lifetime upgrades, ideal for two players.",
   },
-  
-  // Fortnite products
+
+  // Fortnite/Eulen products
   {
-    name: "Eu3ln 1 month",
+    name: "Eul3n 1 month",
     category: "Eulen",
     price: "16.85 USD",
     oldPrice: "22.5 USD",
+    stock: 3,
     image: "https://ibb.co/vCRdSXmG",
     description: "1 Month of Eul3n.",
   },
   {
-    name: "Eulen Lifetime",
+    name: "Eul3n Lifetime",
     category: "Eulen",
     price: "55.5 USD",
     oldPrice: "79.9 USD",
+    stock: 2,
     image: "https://ibb.co/vCRdSXmG",
     description: "Lifetime Eul3n.",
   },
@@ -53,7 +58,7 @@ export const products = [
 // Categories
 export const categories = [
   { name: "Club 44", slug: "club-44" },
-    { name: "Eulen", slug: "Eulen" }, // <-- new category
+  { name: "Eulen", slug: "Eulen" },
 ];
 
 export default function Products() {
@@ -109,7 +114,17 @@ export default function Products() {
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-2">{product.name}</h3>
                         <p className="text-gray-400 line-through">{product.oldPrice}</p>
-                        <p className="text-xl font-bold text-green-500 mb-4">{product.price}</p>
+                        <p className="text-xl font-bold text-green-500 mb-2">{product.price}</p>
+
+                        {/* Stock Display */}
+                        <p
+                          className={`text-sm font-medium mb-4 ${
+                            product.stock > 0 ? "text-green-400" : "text-red-500"
+                          }`}
+                        >
+                          {product.stock > 0 ? `In Stock: ${product.stock}` : "Out of Stock"}
+                        </p>
+
                         <p className="text-gray-300 mb-6">{product.description}</p>
                         <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-3 rounded-2xl transition-all shadow-md hover:shadow-green-500/40">
                           Purchase in https://discord.gg/Cy7WEHzaeK
