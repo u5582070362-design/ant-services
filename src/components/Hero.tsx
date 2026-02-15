@@ -43,8 +43,8 @@ export default function Hero() {
           <div className="relative hidden md:block">
             <div className="absolute inset-0 green-glow scale-150" />
             <Image
-              src="https://ibb.co/79g676p"
-              alt="GTA Characters"
+              src=""
+              alt=""
               width={600}
               height={500}
               className="relative z-10 object-contain"

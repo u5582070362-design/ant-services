@@ -9,7 +9,7 @@ export default function Socials() {
         </h2>
 
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          Never miss an update, follow us on social media for the latest news, updates, and exclusive offers!
+          Never miss an update, follow join our discord, https://discord.gg/Cy7WEHzaeK for the latest news, updates, and exclusive offers!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
@@ -25,7 +25,7 @@ export default function Socials() {
             </div>
             <div>
               <h3 className="font-semibold text-white">Discord</h3>
-              <p className="text-sm text-gray-500">Join our community https://discord.gg/Fda5YY5Cxq</p>
+              <p className="text-sm text-gray-500">https://discord.gg/Fda5YY5Cxq</p>
             </div>
           </a>
 

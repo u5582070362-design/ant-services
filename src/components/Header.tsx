@@ -23,9 +23,9 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-green-500 flex items-center justify-center">
-              <span className="text-black font-bold text-sm">GM</span>
+              <span className="text-black font-bold text-sm">Ant</span>
             </div>
-            <span className="font-bold text-lg text-white">GorillaModz</span>
+            <span className="font-bold text-lg text-white">Ant Services</span>
           </div>
 
           {/* Desktop Navigation */}

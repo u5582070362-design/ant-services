@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button";
 // Product list
 export const products = [
   {
-    name: "Club 44",
+    name: "Club 44 Solo Public",
     price: "100 USD",
     oldPrice: "125 USD",
     image: "https://i.ibb.co/0RdszGyZ/club44.png",
-    description: "Premium mod with smooth performance and clean UI for ultimate gaming experience.",
+    description: "Premium ch3at with smooth performance and clean UI for ultimate gaming experience.",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function Products() {
               <p className="text-xl font-bold text-green-500 mb-4">{product.price}</p>
               <p className="text-gray-300 mb-6">{product.description}</p>
               <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-3 rounded-2xl transition-all shadow-md hover:shadow-green-500/40">
-                Purchase Now
+                Purchase Now in our discord! https://discord.gg/Cy7WEHzaeK
               </Button>
             </div>
           ))}
