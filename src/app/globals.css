@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ✅ Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: 0 0% 5%;
   --foreground: 0 0% 98%;
