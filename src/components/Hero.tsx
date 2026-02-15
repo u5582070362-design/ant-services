@@ -21,10 +21,7 @@ export default function Hero() {
               destination for all your needs!
             </h1>
 
-            {/**/}
-            <Button className="">
-              
-            </Button>
+
           </div>
 
           {/*  */}
