@@ -30,11 +30,30 @@ export const products = [
     image: "https://i.ibb.co/0RdszGyZ/club44.png",
     description: "Perfect duo ch3at pack with lifetime upgrades, ideal for two players.",
   },
+  
+  // Fortnite products
+  {
+    name: "Eu3ln 1 month",
+    category: "Eulen",
+    price: "16.85 USD",
+    oldPrice: "22.5 USD",
+    image: "https://ibb.co/vCRdSXmG",
+    description: "1 Month of Eul3n.",
+  },
+  {
+    name: "Eulen Lifetime",
+    category: "Eulen",
+    price: "55.5 USD",
+    oldPrice: "79.9 USD",
+    image: "https://ibb.co/vCRdSXmG",
+    description: "Lifetime Eul3n.",
+  },
 ];
 
 // Categories
 export const categories = [
   { name: "Club 44", slug: "club-44" },
+    { name: "Eulen", slug: "Eulen" }, // <-- new category
 ];
 
 export default function Products() {
