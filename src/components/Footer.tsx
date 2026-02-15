@@ -4,8 +4,7 @@ const navLinks = [
   { name: "Home", href: "#" },
   { name: "Products", href: "#products" },
   { name: "Feedback", href: "#reviews" },
-  { name: "Status", href: "#" },
-  { name: "Terms of Service", href: "#" },
+
 ];
 
 export default function Footer() {
