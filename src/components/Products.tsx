@@ -13,13 +13,13 @@ type Product = {
 };
 
 // Only one product
-const products: Product[] = [
+export const products = [
   {
     name: "Club 44",
     slug: "club-44",
     price: "100 USD",
     oldPrice: "125 USD",
-    image: "https://i.ibb.co/0RdszGyZ/club44.png", // direct image link from ibb.co
+    image: "https://i.ibb.co/0RdszGyZ/club44.png",
   },
 ];
 
