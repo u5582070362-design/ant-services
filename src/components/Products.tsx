@@ -41,7 +41,7 @@ export default function Products() {
               <p className="text-xl font-bold text-green-500 mb-4">{product.price}</p>
               <p className="text-gray-300 mb-6">{product.description}</p>
               <Button className="w-full bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-3 rounded-2xl transition-all shadow-md hover:shadow-green-500/40">
-                Purchase Now in our discord! https://discord.gg/Cy7WEHzaeK
+                Purchase in https://discord.gg/Cy7WEHzaeK
               </Button>
             </div>
           ))}

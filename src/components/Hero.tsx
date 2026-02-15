@@ -21,33 +21,21 @@ export default function Hero() {
               destination for all your needs!
             </h1>
 
-            {/* Search Bar */}
-            <div className="mt-8 relative max-w-md">
-              <div className="flex items-center bg-[#1a1a1a] border border-white/10 rounded-lg overflow-hidden">
-                <Search className="w-5 h-5 text-gray-500 ml-4" />
-                <input
-                  type="text"
-                  placeholder="Search for products..."
-                  className="flex-1 bg-transparent px-4 py-3 text-white placeholder:text-gray-500 outline-none"
-                />
-              </div>
-            </div>
-
-            {/* Shop Now Button */}
-            <Button className="mt-6 bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-6 rounded-lg text-base">
-              Shop Now
+            {/**/}
+            <Button className="">
+              
             </Button>
           </div>
 
-          {/* Right Image */}
-          <div className="relative hidden md:block">
-            <div className="absolute inset-0 green-glow scale-150" />
+          {/*  */}
+          <div className="">
+            <div className="" />
             <Image
               src=""
               alt=""
-              width={600}
-              height={500}
-              className="relative z-10 object-contain"
+              width={0}
+              height={0}
+              className=""
               priority
             />
           </div>

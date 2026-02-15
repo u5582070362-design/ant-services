@@ -17,7 +17,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-green-500 flex items-center justify-center">
-                <span className="text-black font-bold text-sm">GM</span>
+                <span className="text-black font-bold text-sm">Ant</span>
               </div>
               <span className="font-bold text-lg text-white">Antresell</span>
             </div>
